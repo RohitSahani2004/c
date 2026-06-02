@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-    // WAP to print numbers  1 to 100 and stop 50
+    // WAP to print numbers  1 to 100 and stop at 50
     int i;
 
     for(i = 1; i <=100; i++){
