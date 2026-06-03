@@ -1,33 +1,21 @@
 #include <stdio.h>
-int main(){
-     
-<<<<<<< HEAD
-    int num, a = 0, b =  1, c, i;
-=======
-    int num, a = 0, b = 1 , c, i;
->>>>>>> bbf6e7b (Save current files)
+
+int main() {
+    int num, a = 0, b = 1, c, i;
+
     printf("Enter the number of terms : ");
     scanf("%d", &num);
+
     printf("Fibonacci series : ");
-    for(i = 0; i < num; i++){
-<<<<<<< HEAD
-        if(i <= 1){
-=======
-        if(i <= 1 ){
->>>>>>> bbf6e7b (Save current files)
+
+    for(i = 0; i < num; i++) {
+        if(i <= 1) {
             c = i;
-        }else{
+        } else {
             c = a + b;
             a = b;
             b = c;
         }
         printf("%d ", c);
-<<<<<<< HEAD
-
-    
     }
-=======
-    }  
-    
->>>>>>> bbf6e7b (Save current files)
 }
