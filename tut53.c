@@ -16,7 +16,6 @@ int main()
     printf("Enter two numbers : ");
     scanf("%d %d", &num1, &num2);
 
-    printf("Maximum = %d", maximum8
-        (num1, num2)); // Function call with arguments num1 and num2 and with return value
+    printf("Maximum = %d", maximum(num1, num2)); // Function call with arguments num1 and num2 and with return value
     return 0;
 }
