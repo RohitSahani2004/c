@@ -1,7 +1,7 @@
 #include <stdio.h>
 // Function call without argument and with return value
 
-// Find the sum of two numbers using function in C programming
+// Find the square of a number using function in C programming
 
 int square(){
 
