@@ -21,7 +21,7 @@ int main()
 
     int arr[] = {1, 2, 3, 4, 56, 6, 7, 9};
     int *arrayptr = arr;
-    printf("The addres of first element is %d\n", arr[3]);
+    printf("The address of first element is %d\n", arr[3]);
     printf("The address of first element of the array is %d\n", &arr[0]);
     printf("The address of second element of the array is %d\n", arr);
     printf("The address of first element of the array is %d\n", &arr[1]);
@@ -29,7 +29,7 @@ int main()
     printf("The address of first element of the array is %d\n", &arr[2]);
     printf("The address of first element of the array is %d\n", arr + 2);
 
-    printf("The addres of first element is %d\n", arr[3]);
+    printf("The address of first element is %d\n", arr[3]);
     printf("The address of first element of the array is %d\n", *(&arr[0]));
     printf("The address of second element of the array is %d\n", arr[0]);
     printf("The address of first element of the array is %d\n", *(&arr[1]));

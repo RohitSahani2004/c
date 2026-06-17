@@ -1,4 +1,4 @@
-// Find Sum of array Elements
+// Find Sum of 5 Elements using array
 #include <stdio.h>
 int main(){
 
