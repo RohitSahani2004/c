@@ -9,11 +9,11 @@ int main()
 
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= n; j++)
+        for (j = 1; j <= n; j++) // for row change
         {
-            printf("*");
+            printf("*"); // taken for star printing
         }
-        printf("\n");
+        printf("\n"); // for changing row
     }
 
     return 0;
