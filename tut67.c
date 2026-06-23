@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-  /* Call by Referece*/ // used for copies of argument uses in that function and uses address if argument for call 
+/* Call by Reference: Passes the address of variables to a function so changes affect the original values. */
 
-    // WAP to swap the to number using call by Refernce
- 
+/* Program to swap two numbers using Call by Reference */
+
      void swap(int* a){
         *a * 34;
      }
