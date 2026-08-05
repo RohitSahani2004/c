@@ -7,7 +7,7 @@ struct student
   char fav_char;
   char name[34];
 };
-
+ 
 
 int main()
 {
