@@ -40,7 +40,7 @@ int main()
     int a, b, c;
     a = 6;
     b = 4;
-    // c = sum(a, b);                                 // Function call with arguments a and b
+    // c = sum(a, b);                                 // Function call without arguments a and b
     // printstar(7);                                  // Function call to print 7 stars
     c = takenumber();                              // Function call to take a number from the user and return it
     printf("The number you entered is : %d\n", c); // Output the result of the function call
